@@ -4,7 +4,7 @@
 
 **Metalama is a Roslyn-based meta-programming framework for code generation, architecture validation, and aspect-oriented programming in C#.**
 
-[Metalama](https://metalama.net) lets you write cleaner, more maintainable .NET code by automating repetitive patterns at compile time using aspects, templates, and compile-time logic. It integrates tightly with the Roslyn compiler, providing full control over how your code is built.
+It lets you write cleaner, more maintainable .NET code by automating repetitive patterns at compile time using aspects, templates, and compile-time logic. It integrates tightly with the Roslyn compiler, providing full control over how your code is built.
 
 ## Why Metalama?
 
@@ -70,10 +70,6 @@ Some optional extensions and IDE tooling are released under a proprietary licens
 3. Explore the [Metalama Marketplace](https://metalama.net/marketplace) for ready-made aspects or examples.
 
 4. Follow the [Getting Started](https://doc.metalama.net/conceptual/getting-started) guide to create your first aspect.
-
-## Building Metalama from Source
-
-Please check instructions [here](https://metalama.net/contributing/build-from-source).
 
 ## Contributing
 
