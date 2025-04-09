@@ -92,7 +92,7 @@ For more details, see [Contributing to Metalama](https://metalama.net/contributi
 
 ## Packages
 
-Below is a list of packages originating from this repository:
+Below is a list of packages published by Metalama:
 
 | Package Name                                                                                          |Description                                                                                           |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
