@@ -1,2 +1,1 @@
-# .github
-The GitHub organization profile.
+This repository contains the GitHub organization profile.
