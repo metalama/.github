@@ -120,7 +120,7 @@ Below is a list of packages published by Metalama:
 | [Metalama.Patterns.Wpf](https://www.nuget.org/packages/Metalama.Patterns.Wpf)                         | Aspects that implement WPF dependency properties and commands.                                        |
 | [Metalama.LinqPad](https://www.nuget.org/packages/Metalama.LinqPad/)                                 | Provides integration with LINQPad for inspecting projects and solutions.                              |
 | [Flashtrace](https://www.nuget.org/packages/Flashtrace)                                               | A structured tracing library used by `Metalama.Patterns.Caching`.                                     |
-| [Flashtrace.Formatters](https://www.nuget.org/packages/Flashtrace.Formatters)                         | Object formatters used in caching and logging.                                                        ```
+| [Flashtrace.Formatters](https://www.nuget.org/packages/Flashtrace.Formatters)                         | Object formatters used in caching and logging.                                                        |
 
 ## Repositories
 
