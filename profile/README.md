@@ -92,37 +92,46 @@ For more details, see [Contributing to Metalama](https://metalama.net/contributi
 
 ## Packages
 
-Below is a list of packages published by Metalama:
+Below is a list of packages produced from this organization:
 
-| Package Name                                                                                          |Description                                                                                           |
-|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| [Metalama.Framework](https://www.nuget.org/packages/Metalama.Framework/)                             |  This is the public API of the Metalama Framework. It incorporates a reference to Metalama.Compiler, effectively replacing the Roslyn compiler with our custom version.  |
-| [Metalama.Testing.UnitTesting](https://www.nuget.org/packages/Metalama.Testing.UnitTesting/)          |  Provides base classes and utilities for unit testing compile-time code.   |
-| [Metalama.Testing.AspectTesting](https://www.nuget.org/packages/Metalama.Testing.AspectTesting/)      |  A framework based on xUnit for testing code generation by aspects.   |
-| [Metalama.Framework.Redist](https://www.nuget.org/packages/Metalama.Framework.Redist/)               |  Similar to `Metalama.Framework`, but excludes the dependency on `Metalama.Compiler`.   |
-| [Metalama.Framework.Sdk](https://www.nuget.org/packages/Metalama.Framework.Sdk/)                     |  Facilitates the use of the Roslyn API from aspects.   |
-| [Metalama.Framework.Engine](https://www.nuget.org/packages/Metalama.Framework.Engine/)               |  This is the core implementation of `Metalama.Framework`. Direct referencing of this package is discouraged and unsupported. It's intended to be a dependency for `Metalama.Testing.AspectTesting`.    |
-| [Metalama.Framework.CompileTimeContracts](https://www.nuget.org/packages/Metalama.Framework.CompileTimeContracts/) |  Defines the public API between compiled T# templates and `Metalama.Framework.Engine`.  |
-| [Metalama.Framework.Introspection](https://www.nuget.org/packages/Metalama.Framework.Introspection/) |  Provides an API to inspect the object model that represents the compilation process of `Metalama.Framework`, such as aspect and advice instances, as well as its results.  |
-| [Metalama.Framework.Workspaces](https://www.nuget.org/packages/Metalama.Framework.Workspaces/)       |  A supplementary API to `Metalama.Framework.Introspection`, designed to facilitate the loading of Visual Studio projects and solutions. This package is also useful to inspect projects that don't use Metalama. It is used by `Metalama.LinqPad`.   |
-| [Metalama.Tool](https://www.nuget.org/packages/Metalama.Tool/)                                       |  The `metalama` tool for the .NET CLI.   |
-| [Metalama.Extensions.DependencyInjection](https://www.nuget.org/packages/Metalama.Extensions.DependencyInjection/) | A framework that allows aspects to consume dependencies from an arbitrary dependency injection framework. |
-| [Metalama.Extensions.Metrics](https://www.nuget.org/packages/Metalama.Extensions.Metrics/)           | Implements code metrics that can be consumed by aspects and fabrics. |
-| [Metalama.Extensions.Multicast](https://www.nuget.org/packages/Metalama.Extensions.Multicast/)       | Simulates the legacy PostSharp attribute multicasting to ease the migration from PostSharp to Metalama. |
-| [Metalama.Extensions.Architecture](https://www.nuget.org/packages/Metalama.Extensions.Architecture/) | Allows you to validate the source code against architecture rules. |
-| [Metalama.Patterns.Caching](https://www.nuget.org/packages/Metalama.Patterns.Caching/)               | Comprehensive caching framework for Metalama.                                                         |
-| [Metalama.Patterns.Caching.Aspects](https://www.nuget.org/packages/Metalama.Patterns.Caching.Aspects/) | Aspects designed for Metalama caching, building upon `Metalama.Patterns.Caching`.                     |
-| [Metalama.Patterns.Caching.Backend](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backend/) | Provides an abstraction over caching backends, including an in-memory caching implementation.         |
-| [Metalama.Patterns.Contracts](https://www.nuget.org/packages/Metalama.Patterns.Contracts/)           | Code contract aspects like `[NotNull]`, `[Url]` for contract-based programming.                       |
-| [Metalama.Patterns.Immutability](https://www.nuget.org/packages/Metalama.Patterns.Immutability/)     | Represents the concept of Immutable Type so that it can be used by other packages like Metalama.Patterns.Observability. |
-| [Metalama.Patterns.Memoization](https://www.nuget.org/packages/Metalama.Patterns.Memoization)         | Implements a memoization aspect, i.e. simple and super-fast caching.                                  |
-| [Metalama.Patterns.Observability](https://www.nuget.org/packages/Metalama.Patterns.Observability)     | A Metalama aspect implementing `INotifyPropertyChanged`.                                              |
-| [Metalama.Patterns.Wpf](https://www.nuget.org/packages/Metalama.Patterns.Wpf)                         | Aspects that implement WPF dependency properties and commands.                                        |
-| [Metalama.LinqPad](https://www.nuget.org/packages/Metalama.LinqPad/)                                 | Provides integration with LINQPad for inspecting projects and solutions.                              |
-| [Flashtrace](https://www.nuget.org/packages/Flashtrace)                                               | A structured tracing library used by `Metalama.Patterns.Caching`.                                     |
-| [Flashtrace.Formatters](https://www.nuget.org/packages/Flashtrace.Formatters)                         | Object formatters used in caching and logging.                                                        |
+| Package Name                                                                                          | License | Description                                                                                           |
+|-------------------------------------------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------|
+| [Metalama.Framework](https://www.nuget.org/packages/Metalama.Framework/)                             | MIT     |  This is the public API of the Metalama Framework. It incorporates a reference to Metalama.Compiler, effectively replacing the Roslyn compiler with our custom version.  |
+| [Metalama.Testing.UnitTesting](https://www.nuget.org/packages/Metalama.Testing.UnitTesting/)          | MIT     |  Provides base classes and utilities for unit testing compile-time code.   |
+| [Metalama.Testing.AspectTesting](https://www.nuget.org/packages/Metalama.Testing.AspectTesting/)      | MIT     |  A framework based on xUnit for testing code generation by aspects.   |
+| [Metalama.Framework.Redist](https://www.nuget.org/packages/Metalama.Framework.Redist/)               | MIT     |  Similar to `Metalama.Framework`, but excludes the dependency on `Metalama.Compiler`.   |
+| [Metalama.Framework.Sdk](https://www.nuget.org/packages/Metalama.Framework.Sdk/)                     | MIT     |  Facilitates the use of the Roslyn API from aspects.   |
+| [Metalama.Framework.Engine](https://www.nuget.org/packages/Metalama.Framework.Engine/)               | MIT     |  This is the core implementation of `Metalama.Framework`. Direct referencing of this package is discouraged and unsupported. It's intended to be a dependency for `Metalama.Testing.AspectTesting`.    |
+| [Metalama.Framework.CompileTimeContracts](https://www.nuget.org/packages/Metalama.Framework.CompileTimeContracts/) | MIT     |  Defines the public API between compiled T# templates and `Metalama.Framework.Engine`.  |
+| [Metalama.Framework.Introspection](https://www.nuget.org/packages/Metalama.Framework.Introspection/) | MIT     |  Provides an API to inspect the object model that represents the compilation process of `Metalama.Framework`, such as aspect and advice instances, as well as its results.  |
+| [Metalama.Framework.Workspaces](https://www.nuget.org/packages/Metalama.Framework.Workspaces/)       | MIT     |  A supplementary API to `Metalama.Framework.Introspection`, designed to facilitate the loading of Visual Studio projects and solutions. This package is also useful to inspect projects that don't use Metalama. It is used by `Metalama.LinqPad`.   |
+| [Metalama.Tool](https://www.nuget.org/packages/Metalama.Tool/)                                       | MIT     |  The `metalama` tool for the .NET CLI.   |
+| [Metalama.Extensions.DependencyInjection](https://www.nuget.org/packages/Metalama.Extensions.DependencyInjection/) | MIT     | A framework that allows aspects to consume dependencies from an arbitrary dependency injection framework. |
+| [Metalama.Extensions.Metrics](https://www.nuget.org/packages/Metalama.Extensions.Metrics/)           | MIT     | Implements code metrics that can be consumed by aspects and fabrics. |
+| [Metalama.Extensions.Multicast](https://www.nuget.org/packages/Metalama.Extensions.Multicast/)       | MIT     | Simulates the legacy PostSharp attribute multicasting to ease the migration from PostSharp to Metalama. |
+| [Metalama.Patterns.Caching](https://www.nuget.org/packages/Metalama.Patterns.Caching/)               | MIT     | Comprehensive caching framework for Metalama.                                                         |
+| [Metalama.Patterns.Caching.Aspects](https://www.nuget.org/packages/Metalama.Patterns.Caching.Aspects/) | MIT     | Aspects designed for Metalama caching, building upon `Metalama.Patterns.Caching`.                     |
+| [Metalama.Patterns.Caching.Backend](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backend/) | MIT     | Provides an abstraction over caching backends, including an in-memory caching implementation.         |
+| [Metalama.Patterns.Contracts](https://www.nuget.org/packages/Metalama.Patterns.Contracts/)           | MIT     | Code contract aspects like `[NotNull]`, `[Url]` for contract-based programming.                       |
+| [Metalama.Patterns.Immutability](https://www.nuget.org/packages/Metalama.Patterns.Immutability/)     | MIT     | Represents the concept of Immutable Type so that it can be used by other packages like Metalama.Patterns.Observability. |
+| [Metalama.Patterns.Memoization](https://www.nuget.org/packages/Metalama.Patterns.Memoization)         | MIT     | Implements a memoization aspect, i.e. simple and super-fast caching.                                  |
+| [Metalama.Patterns.Observability](https://www.nuget.org/packages/Metalama.Patterns.Observability)     | MIT     | A Metalama aspect implementing `INotifyPropertyChanged`.                                              |
+| [Metalama.Patterns.Wpf](https://www.nuget.org/packages/Metalama.Patterns.Wpf)                         | MIT     | Aspects that implement WPF dependency properties and commands.                                        |
+| [Metalama.LinqPad](https://www.nuget.org/packages/Metalama.LinqPad/)                                 | MIT     | Provides integration with LINQPad for inspecting projects and solutions.                              |
+| [Flashtrace](https://www.nuget.org/packages/Flashtrace)                                               | MIT     | A structured tracing library used by `Metalama.Patterns.Caching`.                                     |
+| [Flashtrace.Formatters](https://www.nuget.org/packages/Flashtrace.Formatters)                         | MIT     | Object formatters used in caching and logging.                                                        |
+| [Metalama.Licensing](https://www.nuget.org/packages/Metalama.Licensing) | Proprietary |  This package verifies that the user or the project has a valid license for Metalama. |
+| [Metalama.Extensions.CodeFixes](https://www.nuget.org/packages/Metalama.Extensions.CodeFixes)  | Proprietary | Enables aspects and fabrics to suggest custom code fixes. |
+| [Metalama.Extensions.Validation](https://www.nuget.org/packages/Metalama.Extensions.Validation) | Proprietary | Provides a base API for aspects and fabrics to validate source code, including the validation of code references and dependencies. |
+| [Metalama.Extensions.Architecture](https://www.nuget.org/packages/Metalama.Extensions.Architecture) | Proprietary | Extends the  `Metalama.Extensions.Validation` package with a high-level API to validate source code against architecture rules. |
+| [Metalama.Patterns.Caching.Backends.Redis](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backends.Redis) | Proprietary | Implements a `Metalama.Patterns.Caching` adapter for Redis, allowing for distributed caching and hybrid caching. |
+| [Metalama.Patterns.Caching.Backends.Azure](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backends.Azure) | Proprietary | Implements cache synchronization for `Metalama.Patterns.Caching` using Azure Message Bus, allowing to several several local caches in a multi-node deployment. |
+
+
 
 ## Repositories
+
+
 
 | Repository                                                                 | License          | Description                                                                 |
 | ------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------------------------- |
@@ -132,4 +141,4 @@ Below is a list of packages published by Metalama:
 | [Metalama.Community](https://github.com/metalama/Metalama.Community)     | MIT              | Community-contributed aspects repository.                                   |
 | [Metalama.Documentation](https://github.com/metalama/Metalama.Documentation) | MIT              | Source for documentation hosted on [Metalama Docs](https://doc.metalama.net/). |
 | [Metalama.Samples](https://github.com/metalama/Metalama.Samples)          | MIT              | Illustrative samples available at [Metalama Examples](https://doc.metalama.net/examples). |
-| [Metalama.Premium](https://github.com/metalama/Metalama.Premium) 🔑         | Proprietary      | Extensions available to customers with a commercial license.                      |
+| [Metalama.Premium](https://github.com/metalama/Metalama.Premium)         | Proprietary      | Extensions available to customers with a commercial license.                      |
