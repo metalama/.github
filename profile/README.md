@@ -96,7 +96,10 @@ Below is a list of packages produced from this organization:
 
 | Package Name                                                                                          | License | Description                                                                                           |
 |-------------------------------------------------------------------------------------------------------|---------|-------------------------------------------------------------------------------------------------------|
-| [Metalama.Framework](https://www.nuget.org/packages/Metalama.Framework/)                             | MIT     |  This is the public API of the Metalama Framework. It incorporates a reference to Metalama.Compiler, effectively replacing the Roslyn compiler with our custom version.  |
+| [Metalama.Framework](https://www.nuget.org/packages/Metalama.Framework/)                             | MIT     |  This is Metalama's main and core package. It incorporates a reference to `Metalama.Compiler`, effectively replacing the Roslyn compiler with our custom version.  |
+| [Metalama.Framework.Redist](https://www.nuget.org/packages/Metalama.Framework.Redist/)                             | MIT     |  Contains the public API of the Metalama Framework, without `Metalama.Compiler`. Reference this package to produce your own packages when you don't want them to use the forked compiler.  |
+
+| [Metalama.Compiler](https://www.nuget.org/packages/Metalama.Compiler/)                             | MIT     |  A fork of Roslyn that allows add-ins (such as `Metalama.Framework`) to perform arbitrary code transformations. |
 | [Metalama.Testing.UnitTesting](https://www.nuget.org/packages/Metalama.Testing.UnitTesting/)          | MIT     |  Provides base classes and utilities for unit testing compile-time code.   |
 | [Metalama.Testing.AspectTesting](https://www.nuget.org/packages/Metalama.Testing.AspectTesting/)      | MIT     |  A framework based on xUnit for testing code generation by aspects.   |
 | [Metalama.Framework.Redist](https://www.nuget.org/packages/Metalama.Framework.Redist/)               | MIT     |  Similar to `Metalama.Framework`, but excludes the dependency on `Metalama.Compiler`.   |
