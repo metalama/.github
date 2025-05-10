@@ -22,11 +22,11 @@ Metalama is ideal for:
 
 It's main use cases are:
 
-- **Design Patterns**: [Singleton](https://metalama.net/applications/design-patterns/classic-singleton), [Memento](https://metalama.net/applications/design-patterns/memento), [Factory](https://metalama.net/applications/design-patterns/factory), [Builder](https://metalama.net/applications/design-patterns/builder), [Decorator](https://metalama.net/applications/design-patterns/decorator), [Proxy](https://metalama.net/applications/design-patterns/proxy), ...
-- **UI Patterns**: [INotifyPropertyChanged](https://metalama.net/applications/ui/inotifypropertychanged), [Change Tracking](https://metalama.net/applications/ui/command), [Memoization](https://metalama.net/applications/ui/memoization), [Undo/Redo](https://metalama.net/applications/ui/undo-redo), [Command](https://metalama.net/applications/ui/command), [Dependency Properties](https://metalama.net/applications/ui/dependency-property), ...
+- **Design Patterns**: [Singleton](https://metalama.net/applications/classic-singleton), [Memento](https://metalama.net/applications/memento), [Factory](https://metalama.net/applications/factory), [Builder](https://metalama.net/applications/builder), [Decorator](https://metalama.net/applications/decorator), [Proxy](https://metalama.net/applications/proxy), ...
+- **UI Patterns**: [INotifyPropertyChanged](https://metalama.net/applications/inotifypropertychanged), [Change Tracking](https://metalama.net/applications/command), [Memoization](https://metalama.net/applications/memoization), [Undo/Redo](https://metalama.net/applications/undo-redo), [Command](https://metalama.net/applications/command), [Dependency Properties](https://metalama.net/applications/dependency-property), ...
 - **Object Services**: Cloning, ToString, Comparison, ...
 - **Defensive Programming**: [Code Contracts](https://metalama.net/applications/contracts) (preconditions, post-conditions, invariants)
-- **DevOps**: [Logging & Tracing](https://metalama.net/applications/devops/logging), [Metrics](https://metalama.net/applications/devops/metrics), [Caching](https://metalama.net/applications/devops/caching), [Exception Handling](https://metalama.net/applications/devops/exception-handling)
+- **DevOps**: [Logging & Tracing](https://metalama.net/applications/logging), [Metrics](https://metalama.net/applications/metrics), [Caching](https://metalama.net/applications/caching), [Exception Handling](https://metalama.net/applications/exception-handling)
 
 ## License
 
@@ -36,17 +36,17 @@ Some optional extensions and IDE tooling are released under a proprietary licens
 
 ## Features
 
-- [Code Generation](https://metalama.net/features/core/code-generation)
-- [Code Validation](https://metalama.net/features/core/code-validation)
-- [Architecture Validation](https://metalama.net/features/core/architecture-verification) 💎
-- [Immediate Editor Feedback](https://metalama.net/features/core/architecture-verification)
-- [Code Fix Toolkit](https://metalama.net/features/core/code-fixes) 💎
-- [Ready-to-Use Aspect Libraries](https://metalama.net/features/productivity/aspect-libraries)
-- [Visual Studio Tooling](https://metalama.net/features/productivity/tooling) 💎
-- [Test Frameworks](https://metalama.net/features/productivity/testing)
-- [Debugging of Transformed Code](https://metalama.net/features/productivity/debugging)
-- [Roslyn Extensibility SDK](https://metalama.net/features/extensibility/roslyn)
-- [Code Query API](https://metalama.net/features/extensibility/code-query)
+- [Code Generation](https://metalama.net/features/code-generation)
+- [Code Validation](https://metalama.net/features/code-validation)
+- [Architecture Validation](https://metalama.net/features/architecture-verification) 💎
+- [Immediate Editor Feedback](https://metalama.net/features/architecture-verification)
+- [Code Fix Toolkit](https://metalama.net/features/code-fixes) 💎
+- [Ready-to-Use Aspect Libraries](https://metalama.net/features/aspect-libraries)
+- [Visual Studio Tooling](https://metalama.net/features/tooling) 💎
+- [Test Frameworks](https://metalama.net/features/testing)
+- [Debugging of Transformed Code](https://metalama.net/features/debugging)
+- [Roslyn Extensibility SDK](https://metalama.net/features/roslyn)
+- [Code Query API](https://metalama.net/features/code-query)
 
 ## Resources
 
@@ -98,7 +98,7 @@ Here are the principal repositories that make Metalama:
 | Repository                                                                 | License          | Description                                                                 |
 | ------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------------------------- |
 | [Metalama](https://github.com/metalama/Metalama)                          | MIT              | Our main repository containing the full open-source product. |
-| [Metalama.Compiler](https://github.com/metalama/Metalama.Compiler)        | MIT              | A [Roslyn](https://github.com/dotnet/roslyn) fork for source code transformations. |
+| [Metalama.Compiler](https://github.com/metalama/Metalama.Compiler)        | MIT              | Our fork of [Roslyn](https://github.com/dotnet/roslyn) adding an extensibility API for source code transformations. |
 | [PostSharp.Engineering](https://github.com/postsharp/PostSharp.Engineering) | MIT              | A custom multi-repo build and CI framework.                                 |
 | [Metalama.Community](https://github.com/metalama/Metalama.Community)     | MIT              | Community-contributed aspects repository.                                   |
 | [Metalama.Documentation](https://github.com/metalama/Metalama.Documentation) | MIT              | Source for documentation hosted on [Metalama Docs](https://doc.metalama.net/). |
