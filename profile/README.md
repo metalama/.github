@@ -27,6 +27,10 @@ It's main use cases are:
 - **Object Services**: Cloning, ToString, Comparison, ...
 - **Defensive Programming**: [Code Contracts](https://metalama.net/applications/contracts) (preconditions, post-conditions, invariants)
 - **DevOps**: [Logging & Tracing](https://metalama.net/applications/logging), [Metrics](https://metalama.net/applications/metrics), [Caching](https://metalama.net/applications/caching), [Exception Handling](https://metalama.net/applications/exception-handling)
+- [Architecture Validation](https://metalama.net/applications/architecture-verification) 💎
+- [Refactoring](https://metalama.net/applications/refactoring)
+- In general, [Clean Code](https://metalama.net/applications/clean-code) and [SOLID & DRY Principles](https://metalama.net/applications/solid)
+
 
 ## License
 
@@ -38,7 +42,6 @@ Some optional extensions and IDE tooling are released under a proprietary licens
 
 - [Code Generation](https://metalama.net/features/code-generation)
 - [Code Validation](https://metalama.net/features/code-validation)
-- [Architecture Validation](https://metalama.net/features/architecture-verification) 💎
 - [Immediate Editor Feedback](https://metalama.net/features/architecture-verification)
 - [Code Fix Toolkit](https://metalama.net/features/code-fixes) 💎
 - [Ready-to-Use Aspect Libraries](https://metalama.net/features/aspect-libraries)
