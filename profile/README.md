@@ -27,14 +27,14 @@ Metalama is ideal for:
 
 It's main use cases are:
 
-- **Design Patterns**: [Singleton](https://metalama.net/applications/classic-singleton), [Memento](https://metalama.net/applications/memento), [Factory](https://metalama.net/applications/factory), [Builder](https://metalama.net/applications/builder), [Decorator](https://metalama.net/applications/decorator), [Proxy](https://metalama.net/applications/proxy), ...
-- **UI Patterns**: [INotifyPropertyChanged](https://metalama.net/applications/inotifypropertychanged), [Change Tracking](https://metalama.net/applications/command), [Memoization](https://metalama.net/applications/memoization), [Undo/Redo](https://metalama.net/applications/undo-redo), [Command](https://metalama.net/applications/command), [Dependency Properties](https://metalama.net/applications/dependency-property), ...
-- **Object Services**: Cloning, ToString, Comparison, ...
-- **Defensive Programming**: [Code Contracts](https://metalama.net/applications/contracts) (preconditions, post-conditions, invariants)
-- **DevOps**: [Logging & Tracing](https://metalama.net/applications/logging), [Metrics](https://metalama.net/applications/metrics), [Caching](https://metalama.net/applications/caching), [Exception Handling](https://metalama.net/applications/exception-handling)
-- [Architecture Validation](https://metalama.net/applications/architecture-verification) 💎
-- [Refactoring](https://metalama.net/applications/refactoring)
-- In general, [Clean Code](https://metalama.net/applications/clean-code) and [SOLID & DRY Principles](https://metalama.net/applications/solid)
+- **Design Patterns**: [Singleton](https://metalama.net/applications/classic-singleton?utm_source=github&utm_campaign=README), [Memento](https://metalama.net/applications/memento?utm_source=github&utm_campaign=README), [Factory](https://metalama.net/applications/factory?utm_source=github&utm_campaign=README), [Builder](https://metalama.net/applications/builder?utm_source=github&utm_campaign=README), [Decorator](https://metalama.net/applications/decorator?utm_source=github&utm_campaign=README), [Proxy](https://metalama.net/applications/proxy?utm_source=github&utm_campaign=README), ...
+- **UI Patterns**: [INotifyPropertyChanged](https://metalama.net/applications/inotifypropertychanged?utm_source=github&utm_campaign=README), [Change Tracking](https://metalama.net/applications/command?utm_source=github&utm_campaign=README), [Memoization](https://metalama.net/applications/memoization?utm_source=github&utm_campaign=README), [Undo/Redo](https://metalama.net/applications/undo-redo?utm_source=github&utm_campaign=README), [Command](https://metalama.net/applications/command?utm_source=github&utm_campaign=README), [Dependency Properties](https://metalama.net/applications/dependency-property?utm_source=github&utm_campaign=README), [Enum View-Mode](https://doc.metalama.net/examples/enum-viewmodel?utm_source=github&utm_campaign=README) ...
+- **Object Services**: [Cloning](https://doc.metalama.net/examples/clone?utm_source=github&utm_campaign=README), [ToString](https://doc.metalama.net/examples/tostring?utm_source=github&utm_campaign=README), Comparison, ...
+- **Defensive Programming**: [Code Contracts](https://metalama.net/applications/contracts?utm_source=github&utm_campaign=README) (preconditions, post-conditions, invariants)
+- **DevOps**: [Logging & Tracing](https://metalama.net/applications/logging?utm_source=github&utm_campaign=README), [Metrics](https://metalama.net/applications/metrics?utm_source=github&utm_campaign=README), [Caching](https://metalama.net/applications/caching?utm_source=github&utm_campaign=README), [Exception Handling](https://metalama.net/applications/exception-handling?utm_source=github&utm_campaign=README)
+- [Architecture Validation](https://metalama.net/applications/architecture-verification?utm_source=github&utm_campaign=README) 💎
+- [Refactoring](https://metalama.net/applications/refactoring?utm_source=github&utm_campaign=README)
+- In general, [Clean Code](https://metalama.net/applications/clean-code?utm_source=github&utm_campaign=README) and [SOLID & DRY Principles](https://metalama.net/applications/solid?utm_source=github&utm_campaign=README)
 
 
 ## License
@@ -45,24 +45,24 @@ Some optional extensions and IDE tooling are released under a proprietary licens
 
 ## Features
 
-- [Code Generation](https://metalama.net/features/code-generation)
-- [Code Validation](https://metalama.net/features/code-validation)
-- [Immediate Editor Feedback](https://metalama.net/features/architecture-verification)
-- [Code Fix Toolkit](https://metalama.net/features/code-fixes) 💎
-- [Ready-to-Use Aspect Libraries](https://metalama.net/features/aspect-libraries)
-- [Visual Studio Tooling](https://metalama.net/features/tooling) 💎
-- [Test Frameworks](https://metalama.net/features/testing)
-- [Debugging of Transformed Code](https://metalama.net/features/debugging)
-- [Roslyn Extensibility SDK](https://metalama.net/features/roslyn)
-- [Code Query API](https://metalama.net/features/code-query)
+- [Code Generation](https://metalama.net/features/code-generation?utm_source=github&utm_campaign=README)
+- [Code Validation](https://metalama.net/features/code-validation?utm_source=github&utm_campaign=README)
+- [Immediate Editor Feedback](https://metalama.net/features/architecture-verification?utm_source=github&utm_campaign=README)
+- [Code Fix Toolkit](https://metalama.net/features/code-fixes?utm_source=github&utm_campaign=README) 💎
+- [Ready-to-Use Aspect Libraries](https://metalama.net/features/aspect-libraries?utm_source=github&utm_campaign=README)
+- [Visual Studio Tooling](https://metalama.net/features/tooling?utm_source=github&utm_campaign=README) 💎
+- [Test Frameworks](https://metalama.net/features/testing?utm_source=github&utm_campaign=README)
+- [Debugging of Transformed Code](https://metalama.net/features/debugging?utm_source=github&utm_campaign=README)
+- [Roslyn Extensibility SDK](https://metalama.net/features/roslyn?utm_source=github&utm_campaign=README)
+- [Code Query API](https://metalama.net/features/code-query?utm_source=github&utm_campaign=README)
 
 ## Resources
 
-- 🌐 [Metalama Website](https://metalama.net)
-- 📖 [Documentation](https://doc.metalama.net)
-- 📝 [Annotated Examples](https://doc.metalama.net/examples)
+- 🌐 [Metalama Website](https://metalama.net?utm_source=github&utm_campaign=README)
+- 📖 [Documentation](https://doc.metalama.net?utm_source=github&utm_campaign=README)
+- 📝 [Annotated Examples](https://doc.metalama.net/examples?utm_source=github&utm_campaign=README)
 - 📜 [Changelogs](https://github.com/orgs/metalama/discussions/categories/changelog)
-- 📢 [Release Notes](https://doc.metalama.net/conceptual/release-notes)
+- 📢 [Release Notes](https://doc.metalama.net/conceptual/release-notes?utm_source=github&utm_campaign=README)
 - ✨ [Metalama Tools for Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.PostSharp)
 
 ## Quick Start
@@ -75,9 +75,9 @@ Some optional extensions and IDE tooling are released under a proprietary licens
 
 2. Optionally, install [Metalama Tools for Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.PostSharp). It's free for individuals, non-commercial uses, and companies with up to 3 users.
 
-3. Explore the [Metalama Marketplace](https://metalama.net/marketplace) for ready-made aspects or examples.
+3. Explore the [Metalama Marketplace](https://metalama.net/marketplace?utm_source=github&utm_campaign=README) for ready-made aspects or examples.
 
-4. Follow the [Getting Started](https://doc.metalama.net/conceptual/getting-started) guide to create your first aspect.
+4. Follow the [Getting Started](https://doc.metalama.net/conceptual/getting-started?utm_source=github&utm_campaign=README) guide to create your first aspect.
 
 ## Contributing
 
@@ -85,18 +85,18 @@ We welcome contributions! Here's how you can help:
 
 - ⭐ Star the [Metalama](https://github.com/metalama/Metalama) repository or review us on [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.PostSharp).
 - 📝 Write a blog post or record a video about Metalama.
-- 📦 Share your aspects on the [Metalama Marketplace](https://metalama.net/marketplace).
+- 📦 Share your aspects on the [Metalama Marketplace](https://metalama.net/marketplace?utm_source=github&utm_campaign=README).
 - 🛠️ Contribute to [Metalama.Community](https://github.com/metalama/Metalama.Community).
-- 📚 Improve the documentation. [Learn how](https://metalama.net/contributing/contribute-docs).
-- 🐛 Fix bugs or contribute code. [Learn how](https://metalama.net/contributing/contribute-code).
+- 📚 Improve the documentation. [Learn how](https://metalama.net/contributing/contribute-docs?utm_source=github&utm_campaign=README).
+- 🐛 Fix bugs or contribute code. [Learn how](https://metalama.net/contributing/contribute-code?utm_source=github&utm_campaign=README).
 
-For more details, see [Contributing to Metalama](https://metalama.net/contributing).
+For more details, see [Contributing to Metalama](https://metalama.net/contributing?utm_source=github&utm_campaign=README).
 
 ## Support & Community
 
-- Report issues on GitHub. Follow [these recommendations](https://metalama.net/contributing/file-an-issue).
+- Report issues on GitHub. Follow [these recommendations](https://metalama.net/contributing/file-an-issue?utm_source=github&utm_campaign=README).
 - Join [GitHub discussions](https://github.com/orgs/metalama/discussions) for questions and proposals.
-- Enterprise support is available. Learn more about [premium support](https://metalama.net/premium/enterprise-support). 💎
+- Enterprise support is available. Learn more about [premium support](https://metalama.net/premium/enterprise-support?utm_source=github&utm_campaign=README). 💎
 
 
 ## Repositories
@@ -109,8 +109,8 @@ Here are the principal repositories that make Metalama:
 | [Metalama.Compiler](https://github.com/metalama/Metalama.Compiler)        | MIT              | Our fork of [Roslyn](https://github.com/dotnet/roslyn) adding an extensibility API for source code transformations. |
 | [PostSharp.Engineering](https://github.com/postsharp/PostSharp.Engineering) | MIT              | A custom multi-repo build and CI framework.                                 |
 | [Metalama.Community](https://github.com/metalama/Metalama.Community)     | MIT              | Community-contributed aspects repository.                                   |
-| [Metalama.Documentation](https://github.com/metalama/Metalama.Documentation) | MIT              | Source for documentation hosted on [Metalama Docs](https://doc.metalama.net/). |
-| [Metalama.Samples](https://github.com/metalama/Metalama.Samples)          | MIT              | Illustrative samples available at [Metalama Examples](https://doc.metalama.net/examples). |
+| [Metalama.Documentation](https://github.com/metalama/Metalama.Documentation) | MIT              | Source for documentation hosted on [Metalama Docs](https://doc.metalama.net/?utm_source=github&utm_campaign=README). |
+| [Metalama.Samples](https://github.com/metalama/Metalama.Samples)          | MIT              | Illustrative samples available at [Metalama Examples](https://doc.metalama.net/examples?utm_source=github&utm_campaign=README). |
 | [Metalama.Premium](https://github.com/metalama/Metalama.Premium)  💎       | Proprietary      | Extensions available to customers with a commercial license.                      |
 
 
