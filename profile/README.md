@@ -11,6 +11,9 @@
 
 It lets you write cleaner, more maintainable .NET code by automating repetitive patterns at compile time using aspects, templates, and compile-time logic. It integrates tightly with the Roslyn compiler, providing full control over how your code is built.
 
+> [!TIP]
+> **Using an AI coding assistant or agent?** Install [Metalama.AI.Skills](https://github.com/metalama/Metalama.AI.Skills) so it generates correct aspects, fabrics, and architecture rules from the real API instead of inferring it from training data.
+
 ## Why Metalama?
 
 - **Write and maintain less code**: Eliminate boilerplate by generating it dynamically during compilation, reducing code lines and bugs by up to 15%.
@@ -25,7 +28,7 @@ Metalama is ideal for:
 - **Large teams**: Align developers on consistent patterns and practices.
 - **Long lifecycle projects**: Maintain quality over years of development.
 
-It's main use cases are:
+Its main use cases are:
 
 - **Design Patterns**: [Singleton](https://metalama.net/applications/classic-singleton?utm_source=github&utm_campaign=README), [Memento](https://metalama.net/applications/memento?utm_source=github&utm_campaign=README), [Factory](https://metalama.net/applications/factory?utm_source=github&utm_campaign=README), [Builder](https://metalama.net/applications/builder?utm_source=github&utm_campaign=README), [Decorator](https://metalama.net/applications/decorator?utm_source=github&utm_campaign=README), [Proxy](https://metalama.net/applications/proxy?utm_source=github&utm_campaign=README), ...
 - **UI Patterns**: [INotifyPropertyChanged](https://metalama.net/applications/inotifypropertychanged?utm_source=github&utm_campaign=README), [Change Tracking](https://metalama.net/applications/command?utm_source=github&utm_campaign=README), [Memoization](https://metalama.net/applications/memoization?utm_source=github&utm_campaign=README), [Undo/Redo](https://metalama.net/applications/undo-redo?utm_source=github&utm_campaign=README), [Command](https://metalama.net/applications/command?utm_source=github&utm_campaign=README), [Dependency Properties](https://metalama.net/applications/dependency-property?utm_source=github&utm_campaign=README), [Enum View-Mode](https://doc.metalama.net/examples/enum-viewmodel?utm_source=github&utm_campaign=README) ...
@@ -140,7 +143,7 @@ Below is a list of packages produced from this organization:
 | [Metalama.Patterns.Caching.Backend](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backend/) | MIT     | Provides an abstraction over caching backends, including an in-memory caching implementation.         |
 | [Metalama.Patterns.Contracts](https://www.nuget.org/packages/Metalama.Patterns.Contracts/)           | MIT     | Code contract aspects like `[NotNull]`, `[Url]` for contract-based programming.                       |
 | [Metalama.Patterns.Immutability](https://www.nuget.org/packages/Metalama.Patterns.Immutability/)     | MIT     | Represents the concept of Immutable Type so that it can be used by other packages like Metalama.Patterns.Observability. |
-| [Metalama.Patterns.Memoization](https://www.nuget.org/packages/Metalama.Patterns.Memoization)         | MIT     | Implements a memoization aspect, i.e. simple and super-fast caching.                                  |
+| [Metalama.Patterns.Memoization](https://www.nuget.org/packages/Metalama.Patterns.Memoization)         | MIT     | Implements a memoization aspect, i.e. simple, low-overhead caching.                                  |
 | [Metalama.Patterns.Observability](https://www.nuget.org/packages/Metalama.Patterns.Observability)     | MIT     | A Metalama aspect implementing `INotifyPropertyChanged`.                                              |
 | [Metalama.Patterns.Wpf](https://www.nuget.org/packages/Metalama.Patterns.Wpf)                         | MIT     | Aspects that implement WPF dependency properties and commands.                                        |
 | [Metalama.LinqPad](https://www.nuget.org/packages/Metalama.LinqPad/)                                 | MIT     | Provides integration with LINQPad for inspecting projects and solutions.                              |
@@ -151,5 +154,5 @@ Below is a list of packages produced from this organization:
 | [Metalama.Extensions.Validation](https://www.nuget.org/packages/Metalama.Extensions.Validation) 💎 | Proprietary | Provides a base API for aspects and fabrics to validate source code, including the validation of code references and dependencies. |
 | [Metalama.Extensions.Architecture](https://www.nuget.org/packages/Metalama.Extensions.Architecture) 💎 | Proprietary | Extends the  `Metalama.Extensions.Validation` package with a high-level API to validate source code against architecture rules. |
 | [Metalama.Patterns.Caching.Backends.Redis](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backends.Redis) 💎 | Proprietary | Implements a `Metalama.Patterns.Caching` adapter for Redis, allowing for distributed caching and hybrid caching. |
-| [Metalama.Patterns.Caching.Backends.Azure](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backends.Azure) 💎 | Proprietary | Implements cache synchronization for `Metalama.Patterns.Caching` using Azure Message Bus, allowing to several several local caches in a multi-node deployment. |
+| [Metalama.Patterns.Caching.Backends.Azure](https://www.nuget.org/packages/Metalama.Patterns.Caching.Backends.Azure) 💎 | Proprietary | Implements cache synchronization for `Metalama.Patterns.Caching` using Azure Service Bus, allowing several local caches to stay synchronized in a multi-node deployment. |
 
